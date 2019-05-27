@@ -15,7 +15,7 @@ const sidebarTemplate = document.querySelector('#sidebar-template').innerHTML
 // Options
 const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true })
 
-if (!username || !romm) { return location.href = '/' }
+if (!username || !room) { return location.href = '/' }
 
 const autoscroll = () => {
     // New message element
